@@ -35,6 +35,7 @@ Application URL: http://ec2-52-36-165-36.us-west-2.compute.amazonaws.com/
 * python-psycopg2
 * python-sqlalchemy
 * requests
+* glances
 
 ## Configuration
 
