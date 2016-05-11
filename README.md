@@ -18,6 +18,8 @@ Server IP address: 52.36.165.36
 SSH port: 2200
 HTTP port: 80
 
+User: grader
+Password: Grader&-1994
 
 Application URL: http://ec2-52-36-165-36.us-west-2.compute.amazonaws.com/
 
@@ -63,7 +65,7 @@ adduser grader
 #### Give the user `grader` permission to sudo
 
 ```sh
-echo "grader ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/grader
+echo "grader ALL=(ALL) PASSWD:ALL" > /etc/sudoers.d/grader
 ```
 
 #### Set up SSH Authentication
